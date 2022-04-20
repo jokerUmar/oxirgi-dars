@@ -103,3 +103,31 @@
 
 
 }
+
+@media screen and(max-width:375px) {
+  .clients{
+    &-container{
+      max-width: 374px;
+    }
+
+    &-box{
+      display: block;
+      &_card{
+        margin-left: 0; 
+        margin-bottom: 30px;
+      }
+
+    }
+
+  }
+
+  .arrow-left{
+    display: none;
+  }
+
+  .arrow-right{
+    display: none;
+  }
+
+
+}

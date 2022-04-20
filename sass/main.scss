@@ -4,8 +4,6 @@
 @import "./block/description";
 @import "./block/clients";
 @import "./block/footer";
-
-
  body{
    font-family: 'Raleway';
  }
@@ -21,4 +19,12 @@
     max-width: 748px;
   }
 
+ }
+
+ @media screen and (max-width:375px) {
+
+  .container{
+    max-width: 335px;
+  }
+  
  }

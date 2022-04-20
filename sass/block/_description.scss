@@ -133,3 +133,54 @@
 
   }
 }
+
+@media screen and(max-width:375px) {
+  .description{
+    max-width: 374px;
+    &-box{
+      display: block;
+
+      &_card{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+      }
+    }
+
+    &-data{
+      max-width: 374px;
+
+      &-container{
+        display: block;
+      }
+
+      &-content{
+        margin-left: 125px;
+        text-align: center;
+      }
+      
+      &__title{
+       display: inline-block;
+       text-align: center;
+       margin-left: -100px;
+      }
+
+
+      &__button{
+        position: relative;
+        left: -60px;
+      }
+
+    }
+    
+
+    &__img{
+      margin-left: 100px;
+      margin-bottom: 30px;
+    }
+
+
+
+
+  }
+}

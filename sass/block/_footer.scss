@@ -56,3 +56,30 @@
 }
 
 }
+
+@media screen and(max-width:375px) {
+
+  .footer{
+    display: none;
+    &__label>input{
+      margin-bottom: 20px;
+      padding: 15px 320px 15px 13px;
+  
+      &::placeholder{
+        color: #00264F;
+      }
+  
+    }
+    
+  
+   &__message{
+    margin-top: 0;
+    background-color: #fff;
+    padding-bottom: 150px !important;
+  }
+  
+
+
+}
+
+}
