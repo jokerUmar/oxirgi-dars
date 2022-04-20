@@ -1,0 +1,63 @@
+
+.main{
+  background-size: cover;
+  background-image: url('/img/header/pictures.png');
+  background-repeat: no-repeat;
+  
+  &__title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    font-weight: 800; 
+  }
+
+  &__img{
+    position: relative;
+    left: 180px;
+    top: -90px;
+  }
+
+
+  &-arrow{
+    color: white;
+    font-weight: 700;
+    opacity: 0.8;
+    font-size: 100px;
+
+    &-position1{
+      position: relative;
+      top: 280px;
+      left: 100px;
+    }
+
+    &-position2{
+      position: relative;
+      top: -289px;
+      left: 1150px;
+    }
+
+  }
+
+}
+
+@media screen and(max-width:768px) {
+  .main{
+    max-width: 767px;
+    margin-top: -1px;
+    padding: 100px 0; 
+    
+  &__title{
+    font-size: 50px;
+  }
+
+  &__img{
+  display: none;
+  }
+
+
+  &-arrow{
+    display: none;
+  }
+}
+}
